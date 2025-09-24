@@ -1,0 +1,31 @@
+.hero-section {
+    background-image: url('logo.jpg'); /* Put image in public/images folder */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .get-started {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .get-started:hover {
+    background-color: #0056b3;
+  }
+  
